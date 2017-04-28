@@ -1,0 +1,61 @@
+fieldset a.btn{
+	position: relative;
+	top: -4px;
+}
+
+
+#thumbCrop{
+	left: 200px;
+	top: 100px;
+	width: 880px;
+}
+.jcrop-holder{
+	margin: auto;
+}
+	 #thumbCrop div[role=content] label{
+	 	display: block;
+	 	color: #333
+	 }
+
+#blogAdmincategories ul.customlist li{
+	width: 180px
+}
+#blogAdmincategories ul.customlist li i{
+	display: block;
+}
+#blogAdmincategories ul.customlist li i.file{
+	box-shadow: 0 0 3px #555
+}
+#blogAdmincategories ul.customlist li:after{
+	font-family: 'FontAwesome';
+	opacity: .94;
+	position: absolute;
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 2px 3px 1px 2px;
+	text-align: center;
+	right: 75px;
+	top: 25px;
+	width: 30px;
+	font-size: 2em;
+	font-weight: normal;
+	font-style: normal;	
+	box-shadow: 0 0 1px #000;
+	content: '\f058';
+	color: #22cc22;
+}
+#blogAdmincategories ul.customlist li[data-enable="0"]:after{
+	content: '\f2a8';
+	font-size: 1.5em;
+	padding: 5px 3px 5px 3px;
+	color: #be2222;
+}
+.categoryInfos{
+	width: 45vw;
+	height: 65vh;
+	left: 80px;
+}
+	.categoryInfos input[type=checkbox]{
+		height: 50px;
+		width: 50px;
+	}

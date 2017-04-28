@@ -1,0 +1,108 @@
+fieldset a.btn{
+	position: relative;
+	top: -4px;
+}
+
+
+#thumbCrop{
+	left: 200px;
+	top: 100px;
+	width: 880px;
+}
+.jcrop-holder{
+	margin: auto;
+}
+	 #thumbCrop div[role=content] label{
+	 	display: block;
+	 	color: #333
+	 }
+
+#blogAdminarticles ul.customlist li{
+	width: 180px
+}
+#blogAdminarticles ul.customlist li i{
+	display: block;
+}
+#blogAdminarticles ul.customlist li i.file{
+	box-shadow: 0 0 3px #555
+}
+#blogAdminarticles ul.customlist li:after{
+	font-family: 'FontAwesome';
+	opacity: .94;
+	position: absolute;
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 1px 3px 1px 2px;
+	text-align: center;
+	right: 75px;
+	top: 28px;
+	width: 30px;
+	font-size: 2em;
+	font-weight: normal;
+	font-style: normal;	
+	box-shadow: 0 0 1px #000
+}
+#blogAdminarticles ul.customlist li[data-published="1"]:after{
+	content: '\f058';
+	color: #22cc22;
+}
+#blogAdminarticles ul.customlist li[data-published="0"]:after{
+	content: '\f017';
+	color: #be9222;
+}
+#blogAdminarticles ul.customlist li[data-enable="0"]:after{
+	content: '\f2a8';
+	font-size: 1.5em;
+	padding: 5px 3px 5px 3px;
+	color: #be2222;
+}
+.articleInfos{
+	top: 1vh;
+	width: 45vw;
+	height: 88vh;
+	left: 80px;
+}
+	.articleInfos input[type=checkbox]{
+		height: 50px;
+		width: 50px;
+	}
+	.articleInfos input[type=checkbox]+label:after{
+		display: table;
+		content: ' ';
+	}
+
+	.articleInfos ul.tags{
+		padding: 0;
+		margin: 0;
+		font-size: 12px;
+		min-height: 28px;
+	}
+
+		.articleInfos ul.tags.articleTags{
+		    background: #f9fbfe;
+		    border: 1px solid #ddd;
+		}
+		.articleInfos ul.tags.articleTags li.none,
+		.articleInfos ul.tags li.btn{
+			display : inline-block;
+		    height: 28px;
+			vertical-align: middle;
+			box-sizing: border-box;
+		}
+		.articleInfos ul.tags li.btn-tag{
+			background-color: #334331;
+			color: #fff;
+		}
+		.articleInfos ul.tags.articleTags li.btn-tag{
+			background-color: transparent;
+			font-style: italic;
+			color: #555;
+		}
+		.articleInfos ul.tags.articleTags li.btn-tag:hover{
+			background-color: #eee;
+		}
+
+.articleTag{
+	width: 400px;
+	height: 150px;
+}

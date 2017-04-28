@@ -1,0 +1,117 @@
+section.admin .alert.alert-info::before{
+    content:'';
+}
+
+section.admin .alert.alert-info .alert{
+    margin-left: 3em;
+}
+    section.admin  .alert.alert-info .alert span{
+        margin-right: 1em;
+        margin-bottom: .45em;
+    }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td, th{
+    text-align: left;
+    padding: 5px 20px;
+    border-bottom: 1px solid #cccccc;
+    background-color: #eef3f5;
+}
+
+th{
+    background-color: #444444;
+    color: #ffffff;
+    padding: 8px 20px
+}
+
+.catFilter{
+    padding: .8em;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+    background-color: #f5f5f5;
+    vertical-align: middle;
+}
+.catFilter *{
+    box-sizing: border-box;
+}
+    .catFilter select, .catFilter button, td select, td input{
+        padding: .8em;
+        height: 3em;
+        border: 1px solid #cccccc;
+        background-color: #f5f5f5;
+        border-radius: 5px
+    }
+    td select,
+    td input{
+        width: 100%;
+    }
+    td button, .fa-level-up{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 1px solid #cccccc;
+        background-color: #f5f5f5;
+        cursor: pointer;
+    }
+    .fa-check[data-article=publied]{
+        color: #22cc22;
+    }
+    .fa-close[data-article=publied]{
+        color: #cc2222;
+    }
+
+    td button.fa-trash{
+        color : #ffffff;
+        background-color: #995555;
+    }
+    td button.fa-save{
+        color : #ffffff;
+        background-color: #559999;
+    }
+
+.uiNode{
+    height: 158px;
+    top: 110px;
+}
+.uiNode#createArticle{
+    height: 188px;
+}
+
+.uiNode div[role=content]{
+    height: 60px;
+    padding: 8px;
+}
+.uiNode#createArticle div[role=content]{
+    height: 90px;
+}
+.uiNode div[role=content] label{
+    display: inline-block;
+    width: 100px;
+    color: #222222;
+}
+
+.uiNode div[role=content] input,
+.uiNode div[role=content] select{
+    padding: 5px;
+    width: 180px
+}
+
+.uiNode .navbar li{
+    width: 390px;
+}
+
+/* Errors */
+.uiNode#createFail{
+    height: 22px;
+    text-align: center;
+    background: #cc1111;
+}
+.uiNode#createFail div[role=content]{
+    height: 0;
+    display: none
+}
+.uiNode#createFail div[role=footer]{
+}
